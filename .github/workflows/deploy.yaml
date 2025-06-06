@@ -9,10 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Correr migraciones
       - run: echo "Correr migraciones"
-      - name: Generar binario
       - run: echo "Generar binario"
-      - name: Publicar versión
       - run: echo "Publicar versión"
 
